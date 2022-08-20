@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5">
     <img class="mx-5 px-2" src="./images/Logo.png" alt="">
@@ -17,76 +18,87 @@
     </button>
     <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
         <li class="nav-item active mx-2">
-            <a class="nav-link mx-5" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link mx-5" href="landing.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active mx-2">
-            <a class="nav-link mx-5" href="#">Features <span class="sr-only">(current)</span></a>
+            <a class="nav-link mx-5" href="https://www.youtube.com/watch?v=GtL1huin9EE">Features <span
+                    class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active mx-2">
-            <a class="nav-link mx-5" href="#">Pricing <span class="sr-only">(current)</span></a>
+            <a class="nav-link mx-5" href="https://www.youtube.com/watch?v=B5p_QHHtEYM">Pricing <span
+                    class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active mx-2">
             <a class="nav-link mx-5" href="./Howpage.html">How it Works <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active ml-2 mr-5 pr-5">
-            <a class="nav-link mx-5 pr-2" href="#">Support <span class="sr-only">(current)</span></a>
+            <a class="nav-link mx-5 pr-2"
+                href="https://attackofthefanboy.com/guides/elden-ring-healer-class-best-support-build-for-co-op/">Support
+                <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active ml-5">
-            <button type="button" class="btn btn-outline-primary ml-5 px-3 py-1">Sign In </button>
+            <a href="signin.html" class="btn btn-outline-primary ml-5 px-3 py-1">Sign In </a>
         </li>
         <li class="nav-item active mx-4">
-            <a href="signin.html" class="btn btn-primary btn-sm active font-weight-bold mr-5 px-2" role="button"
+            <a href="signin.html" class="btn bgf text2 btn-sm active font-weight-bold mr-5 px-2" role="button"
                 aria-pressed="true">Try It Free</a>
         </li>
     </ul>
 </nav>
+
 <body>
     <div class="mx-5 my-5">
         <div class="row  mx-5 px-5 my-5">
-            <div class="col-4 my-5">
-                <div class="mb-4">
+            <div class="col-4 my-5 in">
+                <div class="mb-4 ">
                     <h1 class="py-5 mx-4 px-5 display-4 font-weight-bold col-md-auto text-start">Sign Up</h1>
                 </div>
-                <form class="mb-5 pb-3">
+                <form class="mb-5 pb-3 wrapper">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                            </svg></span>
-                        <input type="username" class="form-control form-control-lg col-sm-10" id="exampleInputUsername1"
+                        <input type="username" class=" size col-sm-12" id="exampleInputUsername1"
                             aria-describedby="emailUsername">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                        </svg>
                     </div>
                 </form>
-                <form class="mb-5 pb-3">
+                <form class="mb-5 pb-3 wrapper">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="email" class="form-control form-control-lg col-sm-10" id="exampleInputEmail1"
+
+                        <input type="email" class=" size col-sm-12" id="exampleInputEmail1"
                             aria-describedby="emailHelp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
                     </div>
                 </form>
                 <form class="mb-5 pb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
-                            </svg></span>
-                        <input type="password" class="form-control form-control-lg col-sm-10" id="exampleInputPassword1"
+                    <div class="input-group-prepend wrapper">
+
+                        <input type="password" class=" size col-sm-12" id="exampleInputPassword1"
                             aria-describedby="emailPassword">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-lock-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                        </svg>
                     </div>
-                    <div class="mx-5 px-3 mt-5 pt-5">
-                        <a href="signin.html" class="btn btn-primary btn-lg active font-weight-bold mx-5 px-5"
+                    <div class="">
+                        <a href="signin.html" class="btn bgf font-weight-bold text2 sub"
                             role="button" aria-pressed="true">Sign Up</a>
                     </div>
                     <div class="mx-2">
                         <p class="col-sm-9 my-4 mx-5 px-5 font-weight-bold"> Or Sign Up with social platforms</p>
                     </div>
                     <div>
-                        <a href="#"><img class="mr-4" src="./images/facebook.png" alt=""></a>
-                        <a href="#"><img class="mx-4" src="./images/twitter.png" alt=""></a>
-                        <a href="#"><img class="mx-4" src="./images/google-plus.png" alt=""></a>
-                        <a href="#"><img class="mx-4" src="./images/linkedin.png" alt=""></a>
+                        <a href="https://www.facebook.com/codingtemple/"><img class="mr-4" src="./images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/codingtemple"><img class="mx-4" src="./images/twitter.png" alt=""></a>
+                        <a href="https://codingtemple.com/"><img class="mx-4" src="./images/google-plus.png" alt=""></a>
+                        <a href="https://www.linkedin.com/school/coding-temple/"><img class="mx-4" src="./images/linkedin.png" alt=""></a>
                     </div>
                 </form>
 
@@ -103,4 +115,5 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
