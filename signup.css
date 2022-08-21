@@ -1,0 +1,53 @@
+.in form input {
+    border-radius: 140px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+input {
+    padding-left: 48px;
+}
+
+.wrapper svg {
+    position: absolute;
+    left: 14px;
+    top: 24px;
+}
+
+.text2 {
+    color: white;
+}
+
+.bgf {
+    background-color: rgb(0, 98, 204);
+}
+
+.size {
+    padding: 20px 30px;
+}
+
+.sub {
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 140px;
+}
+
+.heading h1 {
+    font-size: 60px;
+
+}
+
+.hero img{
+    width:120%;
+}
+
+.text3 p{
+    font-size: 17px;
+}
+
+.signuptext a {
+    font-size: 29px;
+}
