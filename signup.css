@@ -25,12 +25,29 @@ input {
 }
 
 .size {
-    padding: 18px 30px;
+    padding: 20px 30px;
 }
 
 .sub {
     margin-top: 50px;
     margin-left: 130px;
-    padding: 15px 70px 15px 70px;
+    padding: 10px 70px 10px 70px;
     border-radius: 140px;
+}
+
+.heading h1 {
+    font-size: 60px;
+
+}
+
+.hero img{
+    width:120%;
+}
+
+.text3 p{
+    font-size: 17px;
+}
+
+.signuptext a {
+    font-size: 29px;
 }
